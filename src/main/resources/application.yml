@@ -1,0 +1,16 @@
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    content-type: text/html
+    cache: false
+    encoding: UTF-8
+  profiles:
+    active: dev
+  messages:
+    basename: i18n/messages
+
+
+
+comment.avatar: /images/avatar.png
