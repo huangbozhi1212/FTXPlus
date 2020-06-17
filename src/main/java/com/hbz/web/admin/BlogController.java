@@ -75,6 +75,7 @@ public class BlogController {
         blog.setType(typeService.getType(blog.getType().getId()));
         blog.setTags(tagsService.listTag(blog.getTagIds()));
         Blog b;
+//        System.out.println("==========="+blog.getId());
         if (blog.getId()==null){
             b= blogService.saveBlog(blog);
         }else {

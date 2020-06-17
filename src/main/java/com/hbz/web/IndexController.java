@@ -36,6 +36,10 @@ public class IndexController {
         model.addAttribute("types",typeService.listTypeTop(6));
         model.addAttribute("tags",tagsService.listTagTop(10));
         model.addAttribute("recommendBlogs",blogService.listRecommendBlogTop(8));
+//        System.out.println("********************");
+//        System.out.println(typeService.listTypeTop(6));
+//        System.out.println("********************");
+
         return "index";
     }
     @PostMapping("/search")

@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c46d913-32f9-4b5f-9ffa-059ed90623e8" name="Default Changelist" comment="基于springboot+Spring Data JPA 实现的个人博客">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-pro.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-pro.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hbz/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hbz/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hbz/web/ArchiveShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hbz/web/ArchiveShowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hbz/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hbz/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hbz/web/admin/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hbz/web/admin/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-pro.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/archives.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/blog-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-pro.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hbz/service/impl/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hbz/service/impl/BlogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hbz/web/ArchiveShowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hbz/web/ArchiveShowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hbz/web/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hbz/web/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hbz/web/admin/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hbz/web/admin/BlogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/archives.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,151 +58,29 @@
   <component name="FavoritesManager">
     <favorites_list name="blog" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>getType</find>
-      <find>toPredicate</find>
-      <find>bg</find>
-      <find>wechat</find>
-      <find>李仁密</find>
-      <find>扫码关注我</find>
-      <find>2016</find>
-      <find>Lirenmi</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>黄博智</replace>
-      <replace>扫码联系我</replace>
-      <replace>HuangBozhi</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/web/admin/TypeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/web/admin/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/web/admin/TagsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/pojo/BlogQuery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/web/admin/BlogController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/service/TypeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/service/impl/TypeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/dao/TypeRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/service/TagsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/dao/TagsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/service/impl/TagsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/ACa.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/service/CommentByBlogId.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/service/CommentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/service/impl/CommentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/dao/CommentRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/web/CommentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/web/TypeShowController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/web/TagShowController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/dao/BlogRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/service/BlogService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/service/impl/BlogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/web/ArchiveShowController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/web/AboutShowController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/web/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/animate.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/i18n/messages_zh_CN.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/tags.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/archives.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/blog.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/search.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/tags.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/types.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/me.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/_fragments.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/about.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/i18n/messages_en_US.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hbz/BlogApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-pro.yml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="blog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="blog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
-  </component>
+  <component name="ProjectId" id="1ZNMKVIpRyiEUCpL5vV28x3fn7Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -184,6 +88,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -198,16 +103,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hbz.util" />
+      <recent name="com.hbz.aspect" />
       <recent name="com.hbz.utlis" />
       <recent name="com.hbz.enums" />
       <recent name="com.hbz.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\博智要加油鸭\Desktop\学习\blog\src\main\resources\templates" />
       <recent name="C:\Users\博智要加油鸭\Desktop\blog\src\main\resources" />
       <recent name="C:\Users\博智要加油鸭\Desktop\blog\src\main\resources\static\images" />
       <recent name="C:\Users\博智要加油鸭\Desktop\blog\src\main\resources\i18n" />
       <recent name="C:\Users\博智要加油鸭\Desktop\blog\src\main\java\com\hbz\web" />
-      <recent name="C:\Users\博智要加油鸭\Desktop\blog\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -216,17 +123,6 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-    <option name="contentProportion" value="0.3153014" />
   </component>
   <component name="RunManager" selected="Spring Boot.BlogApplication">
     <configuration name="MD5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -277,6 +173,29 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.16074188" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -291,7 +210,33 @@
       <workItem from="1581212259020" duration="17939000" />
       <workItem from="1581300571825" duration="9891000" />
       <workItem from="1581330132999" duration="967000" />
-      <workItem from="1581332450388" duration="971000" />
+      <workItem from="1581332450388" duration="1318000" />
+      <workItem from="1582089861884" duration="216000" />
+      <workItem from="1582864235005" duration="1140000" />
+      <workItem from="1583400284739" duration="132000" />
+      <workItem from="1584675042979" duration="2013000" />
+      <workItem from="1584704307700" duration="3503000" />
+      <workItem from="1584867264590" duration="656000" />
+      <workItem from="1590673785142" duration="3097000" />
+      <workItem from="1591840906486" duration="1267000" />
+      <workItem from="1591870310529" duration="1217000" />
+      <workItem from="1591874678986" duration="7585000" />
+      <workItem from="1591925599198" duration="4477000" />
+      <workItem from="1591975188368" duration="790000" />
+      <workItem from="1592010496467" duration="29000" />
+      <workItem from="1592010554836" duration="46000" />
+      <workItem from="1592010625517" duration="34000" />
+      <workItem from="1592010729923" duration="17000" />
+      <workItem from="1592011313171" duration="5660000" />
+      <workItem from="1592098556582" duration="26000" />
+      <workItem from="1592098679726" duration="2808000" />
+      <workItem from="1592184956129" duration="699000" />
+      <workItem from="1592186840398" duration="1409000" />
+      <workItem from="1592207529541" duration="5835000" />
+      <workItem from="1592298585290" duration="2619000" />
+      <workItem from="1592303222287" duration="1289000" />
+      <workItem from="1592354696427" duration="25000" />
+      <workItem from="1592354826217" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="基于springboot+Spring Data JPA 实现的个人博客">
       <created>1581330741691</created>
@@ -303,101 +248,6 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="com_hbz_web_in_blog - 2020.02.09 at 10h 01m 39s.xml">
-      <configuration name="com.hbz.web in blog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_hbz_web_in_blog - 2020.02.09 at 10h 34m 32s.xml">
-      <configuration name="com.hbz.web in blog" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94365000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <layout>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.50166667" side_tool="true" weight="0.1616085" />
-      <window_info id="Web" order="5" sideWeight="0.50348026" side_tool="true" weight="0.27162367" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4965197" visible="true" weight="0.28895614" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.46557376" />
-      <window_info anchor="bottom" id="Spring" order="1" weight="0.32786885" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.32786885" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.3289689" />
-      <window_info anchor="bottom" id="Java Enterprise" order="6" weight="0.32786885" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Message" order="9" />
-      <window_info anchor="bottom" id="Find" order="10" weight="0.32569557" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="12" weight="0.45826513" />
-      <window_info anchor="bottom" id="Debug" order="13" weight="0.3986711" />
-      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.3290469" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.50166667" side_tool="true" weight="0.1616085" />
-      <window_info id="Web" order="5" sideWeight="0.50348026" side_tool="true" weight="0.27162367" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4965197" visible="true" weight="0.2730711" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.41898528" />
-      <window_info anchor="bottom" id="Spring" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.3289689" />
-      <window_info anchor="bottom" id="Java Enterprise" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Message" order="9" />
-      <window_info anchor="bottom" id="Find" order="10" weight="0.32569557" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="12" weight="0.45826513" />
-      <window_info anchor="bottom" id="Debug" order="13" weight="0.3986711" />
-      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32928678" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -405,378 +255,67 @@
     <MESSAGE value="基于springboot+Spring Data JPA 实现的个人博客" />
     <option name="LAST_COMMIT_MESSAGE" value="基于springboot+Spring Data JPA 实现的个人博客" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/dao/CommentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/service/impl/CommentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/web/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="43" selection-start-line="43" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/util/MarkdownUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/web/admin/TypeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="28" column="6" selection-start-line="26" selection-start-column="23" selection-end-line="28" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/web/TypeShowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="39" column="23" selection-start-line="30" selection-start-column="8" selection-end-line="39" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/web/admin/BlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="41" column="73" selection-start-line="40" selection-start-column="27" selection-end-line="41" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/dao/BlogRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#45#0" expanded="true" />
-            <element signature="e#0#64#1" expanded="true" />
-            <element signature="e#0#53#1" expanded="true" />
-            <element signature="e#0#138#0" expanded="true" />
-            <element signature="e#0#73#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/service/impl/BlogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4523#4524#0" expanded="true" />
-            <element signature="e#4550#4551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/web/ArchiveShowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/web/AboutShowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/web/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/service/BlogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/hbz.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/web/TagShowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/avatar.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/wechat.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="50" column="72" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2332">
-          <caret line="168" column="115" selection-start-line="168" selection-start-column="115" selection-end-line="168" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2571">
-          <caret line="188" column="115" selection-start-line="188" selection-start-column="115" selection-end-line="188" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/tags.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1604">
-          <caret line="121" column="115" selection-start-line="121" selection-start-column="115" selection-end-line="121" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1529">
-          <caret line="115" column="115" selection-start-line="115" selection-start-column="115" selection-end-line="115" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1574">
-          <caret line="121" column="115" selection-start-line="121" selection-start-column="115" selection-end-line="121" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="116" column="115" selection-start-line="116" selection-start-column="115" selection-end-line="116" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/archives.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="122" column="121" selection-start-line="122" selection-start-column="121" selection-end-line="122" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3491">
-          <caret line="666" column="115" selection-start-line="666" selection-start-column="115" selection-end-line="666" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1571">
-          <caret line="137" column="115" selection-start-line="137" selection-start-column="115" selection-end-line="137" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tags.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1676">
-          <caret line="149" column="115" selection-start-line="149" selection-start-column="115" selection-end-line="149" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/bg1.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/bg1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="142" column="115" selection-start-line="142" selection-start-column="115" selection-end-line="142" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3570">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="86" column="115" selection-start-line="86" selection-start-column="115" selection-end-line="86" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="544" column="12" lean-forward="true" selection-start-line="544" selection-start-column="12" selection-end-line="544" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_fragments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
-          <folding>
-            <element signature="e#1040#1046#0" expanded="true" />
-            <element signature="e#1046#1052#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/me.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/typo.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/blog-dev.log.2020-02-06.0">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages_en_US.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages_zh_CN.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-pro.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbz/BlogApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Notifications" timestamp="1591975206986">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1591975206986" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584675081870">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584675081870" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1591871527642">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591871527642" />
+    <state width="1085" height="186" key="GridCell.Tab.0.bottom" timestamp="1592303040364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1085" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592303040364" />
+    <state width="1085" height="186" key="GridCell.Tab.0.center" timestamp="1592303040364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1085" height="186" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592303040364" />
+    <state width="1085" height="186" key="GridCell.Tab.0.left" timestamp="1592303040364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1085" height="186" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592303040364" />
+    <state width="1085" height="186" key="GridCell.Tab.0.right" timestamp="1592303040364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1085" height="186" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592303040364" />
+    <state width="1085" height="186" key="GridCell.Tab.1.bottom" timestamp="1592303040364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1085" height="186" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592303040364" />
+    <state width="1085" height="186" key="GridCell.Tab.1.center" timestamp="1592303040364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1085" height="186" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592303040364" />
+    <state width="1085" height="186" key="GridCell.Tab.1.left" timestamp="1592303040364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1085" height="186" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592303040364" />
+    <state width="1085" height="186" key="GridCell.Tab.1.right" timestamp="1592303040364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1085" height="186" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592303040364" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1591875030223">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1591875030223" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1592354824525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592354824525" />
+    <state x="0" y="118" key="new project wizard" timestamp="1590673964449">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="118" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590673964449" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592119212167">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1592119212167" />
   </component>
   <component name="masterDetails">
     <states>

@@ -19,6 +19,7 @@ com\hbz\dao\UserRepository.class
 com\hbz\service\impl\CommentServiceImpl.class
 com\hbz\service\impl\TypeServiceImpl.class
 com\hbz\web\admin\TypeController.class
+com\hbz\util\ResultCode.class
 com\hbz\dao\TagsRepository.class
 com\hbz\interceptor\WebConfig.class
 com\hbz\BlogApplication.class
@@ -30,6 +31,7 @@ com\hbz\web\CommentController.class
 com\hbz\service\impl\BlogServiceImpl$2.class
 com\hbz\service\impl\TagsServiceImpl.class
 com\hbz\web\AboutShowController.class
+com\hbz\util\R.class
 com\hbz\pojo\Tag.class
 com\hbz\dao\BlogRepository.class
 com\hbz\aspect\LogAspect$RequestLog.class
